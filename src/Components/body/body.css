@@ -1,0 +1,45 @@
+.body{
+    flex: .8;
+    padding: 30px;
+    background: linear-gradient(#322929,rgba(26,172,233,1));
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    flex: 0.8;
+    overflow-y: overlay;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
+.body-suffle{
+    font-size: 3rem;
+}
+.body-info>img{
+    height:30vh;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    object-fit: contain;
+}
+.body-info{
+    display: flex;
+    gap: .2rem;
+    align-items:flex-end;
+    color: white;
+
+}
+
+.body-icons{
+    display: flex;
+    align-items: center;
+    color:white
+}
+.body-icons>.MuiSvgIcon-root{
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.body-shuffle{
+    font-size: 80px !important;
+    color: green !important;
+}
